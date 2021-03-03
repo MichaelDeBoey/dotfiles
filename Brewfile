@@ -36,6 +36,7 @@ cask 'slack'
 cask 'tableplus'
 cask 'the-unarchiver'
 cask 'vlc'
+cask 'webstorm'
 cask 'zoom'
 
 # Quicklook

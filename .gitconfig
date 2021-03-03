@@ -1,0 +1,12 @@
+[core]
+	excludesfile = /Users/michaeldeboey/.gitignore_global
+	autocrlf = input
+[user]
+	name = Michaël De Boey
+	email = info@michaeldeboey.be
+[push]
+	followTags = true
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main

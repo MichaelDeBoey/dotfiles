@@ -42,13 +42,14 @@ setup a new Mac.
 
 1. Update macOS to the latest version with the App Store
 2. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-   and add them to GitHub by running `ssh.sh` and following the instructions
-
+   by running:
    ```zsh
-   curl https://raw.githubusercontent.com/MichaelDeBoey/dotfiles/HEAD/ssh.sh | bash
+   curl https://raw.githubusercontent.com/MichaelDeBoey/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
    ```
-
-3. Clone this repo with `git clone git@github.com:MichaelDeBoey/dotfiles.git ~/.dotfiles`
+3. Clone this repo to `~/.dotfiles` with:
+   ```zsh
+   git clone git@github.com:MichaelDeBoey/dotfiles.git ~/.dotfiles
+   ```
 4. Run `~/.dotfiles/fresh.sh` to start the installation
 5. After Mackup is synced with your cloud storage, restore preferences by
    running `mackup restore`

@@ -48,13 +48,8 @@ setup a new Mac.
    curl https://raw.githubusercontent.com/MichaelDeBoey/dotfiles/HEAD/ssh.sh | bash
    ```
 
-3. Clone this repo to `~/.dotfiles`
-
-   ```zsh
-   git clone git@github.com:MichaelDeBoey/dotfiles.git ~/.dotfiles
-   ```
-
-4. Run `fresh.sh` to start the installation
+3. Clone this repo with `git clone git@github.com:MichaelDeBoey/dotfiles.git ~/.dotfiles`
+4. Run `~/.dotfiles/fresh.sh` to start the installation
 5. After Mackup is synced with your cloud storage, restore preferences by
    running `mackup restore`
 6. Restart your computer to finalize the process
@@ -62,7 +57,7 @@ setup a new Mac.
 Your Mac is now ready to use!
 
 > Note: you can use a different location than `~/.dotfiles` if you want. Just
-> make sure you also update the reference in the [`.zshrc`](./.zshrc) file.
+> make sure you also update the reference in the [`.zshrc`](./.zshrc#L2) file.
 
 ## Your Own Dotfiles
 

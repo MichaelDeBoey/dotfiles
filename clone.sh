@@ -9,7 +9,7 @@ KENTCDODDS=$DEVELOPER/KentCDodds
 
 # Personal
 git clone git@github.com:MichaelDeBoey/gatsby-plugin-instagram-embed.git $DEVELOPER/gatsby-plugin-instagram-embed
-git clone git@github.com:robinmetral/gatsby-plugin-pinterest.git $DEVELOPER/gatsby-plugin-pinterest
+git clone git@github.com:MichaelDeBoey/gatsby-plugin-pinterest.git $DEVELOPER/gatsby-plugin-pinterest
 git clone git@github.com:MichaelDeBoey/gatsby-remark-embedder.git $DEVELOPER/gatsby-remark-embedder
 git clone git@github.com:MichaelDeBoey/michaeldeboey.be.git $DEVELOPER/michaeldeboey.be
 

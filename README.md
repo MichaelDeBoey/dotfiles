@@ -1,5 +1,9 @@
 # Michaël De Boey's dotfiles
 
+<p align="center"><img src="./art/banner-2x.png"></p>
+
+## Introduction
+
 This repository serves as my way to help me setup and maintain my Mac. It takes
 the effort out of installing everything manually. Everything needed to install
 my preferred setup of macOS is detailed in this README. Feel free to explore,

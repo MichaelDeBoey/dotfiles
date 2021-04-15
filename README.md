@@ -9,10 +9,9 @@ the effort out of installing everything manually. Everything needed to install
 my preferred setup of macOS is detailed in this README. Feel free to explore,
 learn and copy parts for your own dotfiles. Enjoy! 🙂
 
-📖 Read [@driesvints](https://github.com/driesvints)' blog post:
-https://driesvints.com/blog/getting-started-with-dotfiles  
-📺 Watch [@driesvints](https://github.com/driesvints)' screencast on Laracasts:
-https://laracasts.com/series/guest-spotlight/episodes/1
+📖 - [Read @driesvints' blog post](https://driesvints.com/blog/getting-started-with-dotfiles)  
+📺 - [Watch @driesvints' screencast on Laracasts](https://laracasts.com/series/guest-spotlight/episodes/1)  
+💡 - [Learn how to build your own dotfiles](#your-own-dotfiles)
 
 ## A Fresh macOS Setup
 

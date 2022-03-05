@@ -5,9 +5,6 @@ add_to_path() {
   fi
 }
 
-# Load Composer tools
-add_to_path "$HOME/.composer/vendor/bin"
-
 # Load Node global installed binaries
 add_to_path "$HOME/.node/bin"
 

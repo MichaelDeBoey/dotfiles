@@ -5,6 +5,7 @@ echo "Cloning repositories..."
 DEVELOPER=$HOME/Developer
 REMARKEMBEDDER=$DEVELOPER/@remark-embedder
 KENTCDODDS=$DEVELOPER/KentCDodds
+REMIX=$DEVELOPER/Remix
 TESTINGLIBRARY=$DEVELOPER/TestingLibrary
 
 # Personal
@@ -25,7 +26,10 @@ git clone git@github.com:kentcdodds/generator-kcd-oss.git $KENTCDODDS/generator-
 git clone git@github.com:kentcdodds/kcd-scripts.git $KENTCDODDS/kcd-scripts
 
 # Remix
-git clone git@github.com:remix-run/remix.git $DEVELOPER/remix
+git clone git@github.com:remix-run/remix.git $REMIX/remix
+git clone git@github.com:remix-run/blues-stack.git $REMIX/blues-stack
+git clone git@github.com:remix-run/indie-stack.git $REMIX/indie-stack
+git clone git@github.com:remix-run/grunge-stack.git $REMIX/grunge-stack
 
 # Testing Library
 git clone git@github.com:testing-library/eslint-plugin-testing-library.git $TESTINGLIBRARY/eslint-plugin-testing-library

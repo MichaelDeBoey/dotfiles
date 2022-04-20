@@ -15,14 +15,15 @@ learn and copy parts for your own dotfiles. Enjoy! 🙂
 
 ## A Fresh macOS Setup
 
-These instructions are for when you've already set up your dotfiles. If you want
-to get started with your own dotfiles you can
-[find instructions below](#your-own-dotfiles).
+These instructions are for setting up new Mac devices. Instead, if you want to
+get started building your own dotfiles, you can
+[find those instructions below](#your-own-dotfiles).
 
-### Before you re-install
+### Backup your data
 
-First, go through the checklist below to make sure you didn't forget anything
-before you wipe your hard drive.
+If you're migrating from an existing Mac, you should first make sure to backup
+all of your existing data. Go through the checklist below to make sure you
+didn't forget anything before you migrate.
 
 - Did you commit and push any changes/branches to your git repositories?
 - Did you remember to save all important documents from non-iCloud directories?
@@ -31,19 +32,12 @@ before you wipe your hard drive.
 - Did you update [Mackup](https://github.com/lra/mackup) to the latest version
   and ran `mackup backup`?
 
-### Installing macOS cleanly
-
-After going to our checklist above and making sure you backed everything up,
-we're going to cleanly install macOS with the latest release. Follow
-[this article](https://imore.com/how-do-clean-install-macos) to cleanly install
-the latest macOS version.
-
 ### Setting up your Mac
 
-If you did all of the above you may now follow these install instructions to
-setup a new Mac.
+After backing up your old Mac you may now follow these install instructions to
+setup a new one.
 
-1. Update macOS to the latest version with the App Store
+1. Update macOS to the latest version through system preferences
 2. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
    by running:
 
@@ -66,6 +60,13 @@ Your Mac is now ready to use!
 
 > Note: you can use a different location than `~/.dotfiles` if you want. Just
 > make sure you also update the reference in the [`.zshrc`](./.zshrc#L2) file.
+
+### Cleaning your old Mac (optionally)
+
+After you've set up your new Mac you may want to wipe and clean install your old
+Mac. Follow
+[this article](https://support.apple.com/guide/mac-help/erase-and-reinstall-macos-mh27903/mac)
+to do that. Remember to [backup your data](#backup-your-data) first!
 
 ## Your Own Dotfiles
 

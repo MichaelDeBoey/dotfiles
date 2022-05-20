@@ -14,8 +14,10 @@ brew 'mas' # Mac App Store manager
 brew 'youtube-dl'
 
 # Development
+brew 'deno'
 brew 'node'
 brew 'nvm'
+brew 'pnpm'
 brew 'yarn'
 
 # Apps
@@ -31,8 +33,10 @@ cask 'intellij-idea'
 cask 'microsoft-excel'
 cask 'microsoft-teams'
 cask 'microsoft-word'
+cask 'mixed-in-key'
 cask 'portfolioperformance'
 cask 'postman'
+cask 'rekordbox'
 cask 'sizeup'
 cask 'slack'
 cask 'tableplus'

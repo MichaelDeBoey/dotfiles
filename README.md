@@ -87,7 +87,7 @@ and
 
 Check out the [`Brewfile`](./Brewfile) file and adjust the apps you want to
 install for your machine. Use
-[their search page](https://caskroom.github.io/search) to check if the app you
+[their search page](https://formulae.brew.sh/cask) to check if the app you
 want to install is available.
 
 Check out the [`aliases.zsh`](./aliases.zsh) file and add your own aliases. If

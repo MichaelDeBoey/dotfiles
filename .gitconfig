@@ -1,12 +1,18 @@
+[commit]
+	gpgsign = true
 [core]
-	excludesfile = ~/.dotfiles/.gitignore_global
 	autocrlf = input
+	excludesfile = $HOME/.dotfiles/.gitignore_global
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[init]
+	defaultBranch = main
+[push]
+	followTags = true
+[tag]
+    gpgsign = true
 [user]
 	name = Michaël De Boey
 	email = info@michaeldeboey.be
-[push]
-	followTags = true
-[commit]
-	gpgsign = true
-[init]
-	defaultBranch = main

@@ -25,7 +25,7 @@ get started building your own dotfiles, you can
 
 ### Backup your data
 
-If you're migrating from an existing Mac, you should first make sure to backup
+If you're migrating from an existing Mac, you should first make sure to back up
 all of your existing data. Go through the checklist below to make sure you
 didn't forget anything before you migrate.
 
@@ -39,7 +39,7 @@ didn't forget anything before you migrate.
 ### Setting up your Mac
 
 After backing up your old Mac you may now follow these install instructions to
-setup a new one.
+set up a new one.
 
 1. Update macOS to the latest version through system preferences
 2. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -52,7 +52,7 @@ setup a new one.
 3. Clone this repo to `~/.dotfiles` with:
 
    ```zsh
-   git clone git@github.com:MichaelDeBoey/dotfiles.git ~/.dotfiles
+   git clone --recursive git@github.com:MichaelDeBoey/dotfiles.git ~/.dotfiles
    ```
 
 4. Run `~/.dotfiles/fresh.sh` to start the installation
@@ -70,7 +70,7 @@ Your Mac is now ready to use!
 After you've set up your new Mac you may want to wipe and clean install your old
 Mac. Follow
 [this article](https://support.apple.com/guide/mac-help/erase-and-reinstall-macos-mh27903/mac)
-to do that. Remember to [backup your data](#backup-your-data) first!
+to do that. Remember to [back up your data](#backup-your-data) first!
 
 ## Your Own Dotfiles
 
@@ -101,9 +101,9 @@ liking to tweak your Oh My Zsh setup. More info about how to customize Oh My Zsh
 can be found
 [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization).
 
-When installing these dotfiles for the first time you'll need to backup all of
+When installing these dotfiles for the first time you'll need to back up all of
 your settings with Mackup. Install Mackup and backup your settings with the
-commands below. Your settings will be synced to iCloud so you can use them to
+commands below. Your settings will be synced to iCloud, so you can use them to
 sync between computers and reinstall them when reinstalling your Mac. If you
 want to save your settings to a different directory or different storage than
 iCloud,

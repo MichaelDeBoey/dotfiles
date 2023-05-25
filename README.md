@@ -13,6 +13,10 @@ learn and copy parts for your own dotfiles. Enjoy! 🙂
 📺 - [Watch @driesvints' screencast on Laracasts](https://laracasts.com/series/guest-spotlight/episodes/1)  
 💡 - [Learn how to build your own dotfiles](#your-own-dotfiles)
 
+If you find this repo useful,
+[consider sponsoring me](https://github.com/sponsors/MichaelDeBoey) (a little
+bit)! ❤️
+
 ## A Fresh macOS Setup
 
 These instructions are for setting up new Mac devices. Instead, if you want to
@@ -86,9 +90,8 @@ and
 [Kevin Suttle's macOS Defaults project](https://github.com/kevinSuttle/MacOS-Defaults).
 
 Check out the [`Brewfile`](./Brewfile) file and adjust the apps you want to
-install for your machine. Use
-[their search page](https://formulae.brew.sh/cask) to check if the app you
-want to install is available.
+install for your machine. Use [their search page](https://formulae.brew.sh/cask)
+to check if the app you want to install is available.
 
 Check out the [`aliases.zsh`](./aliases.zsh) file and add your own aliases. If
 you need to tweak your `$PATH` check out the [`path.zsh`](./path.zsh) file.

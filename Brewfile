@@ -1,18 +1,21 @@
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/bundle'
+tap 'oven-sh/bun'
 
 # Binaries
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
+brew 'flyctl'
 brew 'gh'
 brew 'git'
 brew 'mackup'
-brew 'mas' # Mac App Store manager
-brew 'youtube-dl'
+# brew 'mas' # Mac App Store manager
+brew 'yt-dlp'
 
 # Development
+brew 'bun'
 brew 'deno'
 brew 'node'
 brew 'nvm'
@@ -48,4 +51,4 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 
 # Mac App Store
-mas 'HotspotShield', id: 771076721
+# mas 'HotspotShield', id: 771076721

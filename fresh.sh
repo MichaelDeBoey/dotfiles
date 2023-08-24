@@ -35,7 +35,7 @@ mkdir $HOME/Developer/KentCDodds
 ./clone.sh
 
 # Symlink the Mackup config file to the home directory
-ln -s .mackup.cfg $HOME/.mackup.cfg
+ln -s ./.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences
 # We will run this last because this will reload the shell

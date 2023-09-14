@@ -19,7 +19,6 @@ fi
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
 # Create a Developer directory
@@ -30,6 +29,8 @@ mkdir $HOME/Developer
 mkdir $HOME/Developer/@remark-embedder
 mkdir $HOME/Developer/CodeSandbox
 mkdir $HOME/Developer/KentCDodds
+mkdir $HOME/Developer/Remix
+mkdir $HOME/Developer/TestingLibrary
 
 # Clone GitHub repositories
 ./clone.sh

@@ -5,10 +5,7 @@ add_to_path() {
   fi
 }
 
-# Load Composer tools
-add_to_path "$HOME/.composer/vendor/bin"
-
-# Load Node global installed binaries
+# Load global Node installed binaries
 add_to_path "$HOME/.node/bin"
 
 # Use project specific binaries before global ones

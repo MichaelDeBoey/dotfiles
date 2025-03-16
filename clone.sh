@@ -26,6 +26,7 @@ git clone git@github.com:kentcdodds/generator-kcd-oss.git $KENTCDODDS/generator-
 git clone git@github.com:kentcdodds/kcd-scripts.git $KENTCDODDS/kcd-scripts
 
 # Remix
+git clone git@github.com:remix-run/remix.git $REMIX/react-router
 git clone git@github.com:remix-run/remix.git $REMIX/remix
 git clone git@github.com:remix-run/blues-stack.git $REMIX/blues-stack
 git clone git@github.com:remix-run/indie-stack.git $REMIX/indie-stack

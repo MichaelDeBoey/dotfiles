@@ -1,5 +1,4 @@
 # Taps
-tap 'homebrew/bundle'
 tap 'oven-sh/bun'
 
 # Binaries
